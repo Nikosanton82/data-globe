@@ -21,8 +21,7 @@ export default function RootLayout({
           <Nav />
           {children}
         </main>
-      </body>{" "}
-      py-8 px-56
+      </body>
     </html>
   );
 }
