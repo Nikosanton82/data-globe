@@ -1,3 +1,11 @@
+import Banner from "./components/Banner";
+
 export default function Home() {
-  return <main className="">Testing</main>;
+  return (
+    <main className="">
+      <>
+        <Banner />
+      </>
+    </main>
+  );
 }
